@@ -1,12 +1,12 @@
 # Single-Stage Signal Attenuation Diffusion Model for Low-Light Image Enhancement and Denoising
-**Official PyTorch implementation of SADM (arXiv:2604.05727)**
+**Official PyTorch implementation of SADM**
+> 🎉 This work has been accepted by **Pattern Recognition**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2604.05727-b31b1b.svg)](https://arxiv.org/abs/2604.05727)
-[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2604.05727-228be6)](https://doi.org/10.48550/arXiv.2604.05727)
+[![DOI](https://img.shields.io/badge/DOI-10.1016/j.patcog.2026.114918-228be6)](https://doi.org/10.1016/j.patcog.2026.114918)
 [![Python](https://img.shields.io/badge/Python-3.9+-34d399.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-f97316.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-Academic%20Only-red.svg)](#license)
-
 ---
 ---
 ## 🗂️ Project Structure
@@ -98,15 +98,17 @@ All visual results in LOLv1, LOLv2_real, LOLv2_syn and ablation study are provid
 ## 📝 Citation
 If you find this work useful for your research, please cite:
 ```bibtex
-@article{liu2026single,
-  title={Single-Stage Signal Attenuation Diffusion Model for Low-Light Image Enhancement and Denoising},
-  author={Liu, Ying and Zhang, Junchao and Wu, Caiyun},
-  journal={arXiv preprint arXiv:2604.05727},
+@article{liu2026sadmpr,
+  title={Single-stage signal Attenuation Diffusion Model for Low-Light Image Enhancement and denoising},
+  author={Ying Liu and Junchao Zhang and Caiyun Wu},
+  journal={Pattern Recognition},
+  pages={114918},
   year={2026},
-  doi={10.48550/arXiv.2604.05727}
+  issn={0031-3203},
+  doi={10.1016/j.patcog.2026.114918},
+  url={https://www.sciencedirect.com/science/article/pii/S0031320326018820}
 }
 ```
-
 ---
 
 ## 🪪 License
